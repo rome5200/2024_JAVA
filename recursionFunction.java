@@ -12,6 +12,11 @@ public class recursionFunction {
 		else
 			return n*Fact(n-1);
 	}
+	static int fibo(int n) {
+		if(n==1 || n==2)
+			return 1;
+		return fibo(n-1)+fibo(n-2);
+	}
 	static int Exp(int x, int y) {
 		if(y == 0)
 			return 1;
