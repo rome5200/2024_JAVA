@@ -6,7 +6,7 @@ class Circle1{
 		return radius;
 	}
 	public Circle1() {
-		this.radius = (int)((Math.random()*100)+1);
+		this.radius = (int)(Math.random()*101);
 	}
 	public String ToString() {
 		return "Circle [radius = "+radius;
