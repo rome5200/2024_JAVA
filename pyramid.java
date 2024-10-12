@@ -87,6 +87,11 @@ public class pyramid {
 			System.out.print("*");
 	System.out.println();
 	}
+	for(int i = s; i>='a'; i--) {
+		for(char j = 'a'; j<=i ; j++)
+			System.out.print(j);
+		System.out.println();
+	}
 	
 
 }
