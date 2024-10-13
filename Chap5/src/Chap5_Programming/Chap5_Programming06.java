@@ -15,7 +15,6 @@ public class Chap5_Programming06 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		Contacts[] c = new Contacts[100];
-		String name;
 		int i = 0;
 		System.out.println("연락처를 입력하시오 (종료 -1)");
 		while(true) {
@@ -36,7 +35,7 @@ public class Chap5_Programming06 {
         String searchName = sc.next();
 
         for (int j = 0; j < i; j++) {
-            if (c[j].name.equals(name)) {
+            if (c[j].name.equals(searchName)) {
                 System.out.println(name + " : " + c[j].tel+", "+c[j].email);
                 break;
             }
